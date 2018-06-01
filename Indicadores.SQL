@@ -107,28 +107,22 @@ ADD FOREIGN KEY( idEstacionMuestreo ) REFERENCES EstacionMuestreo (
 idEstacionMuestreo );
 ALTER TABLE MuestraAnual
 ADD FOREIGN KEY( idIndicador ) REFERENCES Indicador ( idIndicador );
-INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (1, ‘Canal
-Rio Negro’, ‘Cuenca’);
-INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (2, ‘Canal
-torca’, ‘Cuenca’);
-INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (3, ‘Sector
-Urbano’, ‘Area Influencia’);
-INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (4, ‘Canal
-Rio Grande’, ‘Cuenca’);
-INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (5, ‘Perimetro
-Urbano’, ‘Area Influencia’);
-INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (6, ‘Sector
-Industria’, ‘IndustriaControlada’);
-INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (7, ‘Sector
-Rural’, ‘Area Influencia’);
+INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (1, ‘Canal Rio Negro’, ‘Cuenca’);
+INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (2, ‘Canal torca’, ‘Cuenca’);
+INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (3, ‘Sector Urbano’, ‘Area Influencia’);
+INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (4, ‘Canal Rio Grande’, ‘Cuenca’);
+INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (5, ‘Perimetro Urbano’, ‘Area Influencia’);
+INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (6, ‘Sector Industria’, ‘IndustriaControlada’);
+INSERT INTO Zona ( idZona , NombreZona , TipoZona ) VALUES (7, ‘SectorRural’, ‘Area Influencia’);
+
 /****** Object: Table Recurso ******/
 INSERT INTO Recurso ( idRecurso , NombreRecurso ) VALUES (6, ‘Agua’);
 INSERT INTO Recurso ( idRecurso , NombreRecurso ) VALUES (7, ‘Aire’);
 INSERT INTO Recurso ( idRecurso , NombreRecurso ) VALUES (8, ‘Fauna’);
 INSERT INTO Recurso ( idRecurso , NombreRecurso ) VALUES (9, ‘Suelo’);
-INSERT INTO Recurso ( idRecurso , NombreRecurso ) VALUES (10, ‘Vegetación
-y Arbolado’);
+INSERT INTO Recurso ( idRecurso , NombreRecurso ) VALUES (10, ‘Vegetación y Arbolado’);
 commit;
+
 CREATE SEQUENCE SEQ_RECURSO
 MINVALUE 11
 MAXVALUE 1000000
@@ -235,164 +229,83 @@ través de convenios con entidades INTEGEReresadas en participar de procesos
 de arborización urbana, gestión con participación ciudadana e institucional y
 plantación directa.’);
 commit;
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,
-Ubicación , Longitud ) VALUES (49, 1, ‘Tramo 1 ‘, N’Regadera’, 1);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,
-Ubicación , Longitud ) VALUES (50, 1, ‘Tramo2’, ‘Yomasa Doña Juana’, 4);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre
-, Ubicación , Longitud ) VALUES (51, 1, ‘Tramo3’, ‘Doña Juana Barrio Mexico
-San Benito Makro Autopista’, 14);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,
-Ubicación , Longitud ) VALUES (52, 1, ‘Tramo4’, ‘Makro Autopista Sur Transversal
-86 Puente la Independencia’, 14);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,
-Ubicación , Longitud ) VALUES (53, 2, ‘Tramo1’, ‘Canal El Cedro’, 6);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,
-Ubicación , Longitud ) VALUES (54, 2, ‘Tramo2’, ‘Makro 193’, 7);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,
-Ubicación , Longitud ) VALUES (55, 4, ‘Tramo1’, ‘Parque Santander’, 1);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,
-Ubicación , Longitud ) VALUES (56, 4, ‘Tramo2’, ‘Arzobispo Carrera 7 Carrera
-30 Calle 53’, 2);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,
-Ubicación , Longitud ) VALUES (57, 4, ‘Tramo3’, ‘Carrefour Av 68 Transversal
-91 Planta Salitre Salitre ‘, 13);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,
-Ubicación , Longitud ) VALUES (58, 3, ‘Relleno Sanitario’, ‘Yomasa Doña Juana’,
-10);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,
-Ubicación , Longitud ) VALUES (59, 3, ‘Perimetro Urbano’, ‘Perimetro Urbano’,
-100);
-INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre
-, Ubicación , Longitud ) VALUES (60, 6, ‘Industrias Controladas’, ‘Perimetro
-Urbano’, 25);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,Ubicación , Longitud ) VALUES (49, 1, ‘Tramo 1 ‘, N’Regadera’, 1);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,Ubicación , Longitud ) VALUES (50, 1, ‘Tramo2’, ‘Yomasa Doña Juana’, 4);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre, Ubicación , Longitud ) VALUES (51, 1, ‘Tramo3’, ‘Doña Juana Barrio Mexico San Benito Makro Autopista’, 14);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,Ubicación , Longitud ) VALUES (52, 1, ‘Tramo4’, ‘Makro Autopista Sur Transversal86 Puente la Independencia’, 14);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,Ubicación , Longitud ) VALUES (53, 2, ‘Tramo1’, ‘Canal El Cedro’, 6);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,Ubicación , Longitud ) VALUES (54, 2, ‘Tramo2’, ‘Makro 193’, 7);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,Ubicación , Longitud ) VALUES (55, 4, ‘Tramo1’, ‘Parque Santander’, 1);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,Ubicación , Longitud ) VALUES (56, 4, ‘Tramo2’, ‘Arzobispo Carrera 7 Carrera 30 Calle 53’, 2);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,Ubicación , Longitud ) VALUES (57, 4, ‘Tramo3’, ‘Carrefour Av 68 Transversal 91 Planta Salitre Salitre ‘, 13);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,Ubicación , Longitud ) VALUES (58, 3, ‘Relleno Sanitario’, ‘Yomasa Doña Juana’,10);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre ,Ubicación , Longitud ) VALUES (59, 3, ‘Perimetro Urbano’, ‘Perimetro Urbano’,100);
+INSERT INTO EstacionMuestreo ( idEstacionMuestreo , idZona , Nombre, Ubicación , Longitud ) VALUES (60, 6, ‘Industrias Controladas’, ‘PerimetroUrbano’, 25);
 commit;
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (1, 120, 2004, 7, 10);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (2, 120, 2004, 8, 9);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (3, 120, 2004, 9, 9);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (4, 120, 2004, 10, 12);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (5, 120, 2004, 11, 11);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (6, 120, 2004, 12, 11);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (7, 120, 2005, 1, 9);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (8, 120, 2005, 2, 10);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (9, 120, 2005, 3, 10);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (10, 120, 2005, 4, 10);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (11, 120, 2005, 5, 11);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (12, 120, 2005, 6, 10);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (13, 120, 2005, 7, 10);
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (14, 120, 2005, 8, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (15, 120, 2005, 9, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (16, 120, 2005, 10, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (17, 120, 2005, 11, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (18, 120, 2005, 12, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (19, 120, 2006, 1, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (20, 120, 2006, 2, 9 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (21, 120, 2006, 3, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (22, 120, 2006, 4, 13 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (23, 120, 2006, 5, 18 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (24, 120, 2006, 6, 12 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (25, 120, 2006, 7, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (26, 120, 2006, 8, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (27, 120, 2006, 9, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (28, 120, 2006, 10, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (29, 120, 2006, 11, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (30, 120, 2006, 12, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (31, 120, 2007, 1, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (32, 120, 2007, 2, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (33, 120, 2007, 3, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (34, 120, 2007, 4, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (35, 120, 2007, 5, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (36, 120, 2007, 6, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (37, 120, 2007, 7, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (38, 120, 2007, 8, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (39, 120, 2007, 9, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (40, 120, 2007, 10, 12 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (41, 120, 2007, 11, 14 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (42, 120, 2007, 12, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (43, 120, 2008, 1, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (44, 120, 2008, 2, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (45, 120, 2008, 3, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (46, 120, 2008, 4, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (47, 120, 2008, 5, 13 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (48, 120, 2008, 6, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (49, 120, 2008, 7, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (50, 120, 2008, 8, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (51, 120, 2008, 9, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (52, 120, 2008, 10, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (53, 120, 2008, 11, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (54, 120, 2008, 12, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (55, 120, 2009, 1, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (56, 120, 2009, 2, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (57, 120, 2009, 3, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (58, 120, 2009, 4, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (59, 120, 2009, 5, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (60, 120, 2009, 6, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (61, 120, 2009, 7, 11 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (62, 120, 2009, 8, 10 );
-INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
-Mes , Valor ) VALUES (63, 120, 2009, 9, 9 );
+
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (1, 120, 2004, 7, 10);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (2, 120, 2004, 8, 9);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (3, 120, 2004, 9, 9);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (4, 120, 2004, 10, 12);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (5, 120, 2004, 11, 11);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (6, 120, 2004, 12, 11);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (7, 120, 2005, 1, 9);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (8, 120, 2005, 2, 10);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (9, 120, 2005, 3, 10);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (10, 120, 2005, 4, 10);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (11, 120, 2005, 5, 11);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (12, 120, 2005, 6, 10);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (13, 120, 2005, 7, 10);
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (14, 120, 2005, 8, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (15, 120, 2005, 9, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (16, 120, 2005, 10, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (17, 120, 2005, 11, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (18, 120, 2005, 12, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (19, 120, 2006, 1, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (20, 120, 2006, 2, 9 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (21, 120, 2006, 3, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (22, 120, 2006, 4, 13 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (23, 120, 2006, 5, 18 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (24, 120, 2006, 6, 12 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (25, 120, 2006, 7, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (26, 120, 2006, 8, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (27, 120, 2006, 9, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (28, 120, 2006, 10, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (29, 120, 2006, 11, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (30, 120, 2006, 12, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (31, 120, 2007, 1, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (32, 120, 2007, 2, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (33, 120, 2007, 3, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (34, 120, 2007, 4, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (35, 120, 2007, 5, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (36, 120, 2007, 6, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (37, 120, 2007, 7, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (38, 120, 2007, 8, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (39, 120, 2007, 9, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (40, 120, 2007, 10, 12 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (41, 120, 2007, 11, 14 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (42, 120, 2007, 12, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (43, 120, 2008, 1, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (44, 120, 2008, 2, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (45, 120, 2008, 3, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (46, 120, 2008, 4, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (47, 120, 2008, 5, 13 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (48, 120, 2008, 6, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (49, 120, 2008, 7, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (50, 120, 2008, 8, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (51, 120, 2008, 9, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (52, 120, 2008, 10, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (53, 120, 2008, 11, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (54, 120, 2008, 12, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (55, 120, 2009, 1, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (56, 120, 2009, 2, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (57, 120, 2009, 3, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (58, 120, 2009, 4, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (59, 120, 2009, 5, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (60, 120, 2009, 6, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (61, 120, 2009, 7, 11 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (62, 120, 2009, 8, 10 );
+INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (63, 120, 2009, 9, 9 );
 INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
 Mes , Valor ) VALUES (64, 120, 2009, 10, 10 );
 INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,
