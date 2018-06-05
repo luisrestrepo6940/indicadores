@@ -365,136 +365,70 @@ INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor
 INSERT INTO MuestraMensual ( idMuestraMensual , idIndicador , Fecha ,Mes , Valor ) VALUES (120, 300, 2011, 11, 4 );
 commit;
 
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (1, 59, 200, 1999, 17 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (2, 59, 200, 2000, 17 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (3, 59, 200, 2001, 13 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (4, 59, 200, 2002, 11 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (5, 59, 200, 2003, 11 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (6, 59, 200, 2004, 13 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (7, 59, 200, 2005, 9 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (8, 59, 200, 2006, 6 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (9, 59, 200, 2007, 7 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (10, 59, 200, 2008, 9 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (11, 59, 200, 2009, 8 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (12, 59, 200, 2010, 4 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (13, 59, 210, 2005, 41 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (14, 59, 210, 2006, 10 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (15, 59, 210, 2007, 14 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (16, 59, 210, 2008, 14 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (17, 59, 210, 2009, 14 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (18, 59, 210, 2010, 14 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (19, 60, 110, 2002, 8574 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (20, 60, 110, 2003, 3867 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (21, 60, 110, 2004, 3867 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador 
-, Fecha , Valor ) VALUES (22, 60, 110, 2005, 4268 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (23, 60, 110, 2006, 4268 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (24, 60, 110, 2007, 4268 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (25, 60, 110, 2008, 4268 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (26, 60, 110, 2009, 4280 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (27, 60, 110, 2010, 1868 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (28, 60, 130, 2002, 7746 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (29, 60, 130, 2003, 7692 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (30, 60, 130, 2004, 7692 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (31, 60, 130, 2005, 2611 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (32, 60, 130, 2006, 2611 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (33, 60, 130, 2007, 2611 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (34, 60, 130, 2008, 2611 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (35, 60, 130, 2009, 1671 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (36, 60, 130, 2010, 1816 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (37, 58, 310, 2003, 22918 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (38, 58, 310, 2004, 201058 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (39, 58, 310, 2005, 228712 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (40, 58, 310, 2006, 227699 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (41, 58, 310, 2007, 258133 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (42, 58, 310, 2008, 202961 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (43, 58, 310, 2009, 253066 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (44, 58, 310, 2010, 279166 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador 
-, Fecha , Valor ) VALUES (45, 58, 320, 2002, 1844020 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (46, 58, 320, 2003, 1837240 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (47, 58, 320, 2004, 1965170 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (48, 58, 320, 2005, 1974240 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (49, 58, 320, 2006, 1960000 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (50, 58, 320, 2007, 2091410 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (51, 58, 320, 2008, 2161720 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (52, 58, 320, 2009, 2096550 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (53, 58, 320, 2010, 2239335 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (54, 59, 500, 1998, 6220 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (55, 59, 500, 1999, 40078 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (56, 59, 500, 2000, 61777 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (57, 59, 500, 2001, 28653 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (58, 59, 500, 2002, 7812 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (59, 59, 500, 2003, 51186 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (60, 59, 500, 2004, 7257 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (61, 59, 500, 2005, 23399 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (62, 59, 500, 2006, 13493 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (63, 59, 500, 2007, 17736 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (64, 59, 500, 2008, 15489 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (65, 59, 500, 2009, 22038 );
-INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador
-, Fecha , Valor ) VALUES (66, 59, 500, 2010, 22314 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (1, 59, 200, 1999, 17 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (2, 59, 200, 2000, 17 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (3, 59, 200, 2001, 13 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (4, 59, 200, 2002, 11 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (5, 59, 200, 2003, 11 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (6, 59, 200, 2004, 13 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (7, 59, 200, 2005, 9 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (8, 59, 200, 2006, 6 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (9, 59, 200, 2007, 7 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (10, 59, 200, 2008, 9 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (11, 59, 200, 2009, 8 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (12, 59, 200, 2010, 4 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (13, 59, 210, 2005, 41 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (14, 59, 210, 2006, 10 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (15, 59, 210, 2007, 14 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (16, 59, 210, 2008, 14 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (17, 59, 210, 2009, 14 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (18, 59, 210, 2010, 14 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (19, 60, 110, 2002, 8574 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (20, 60, 110, 2003, 3867 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (21, 60, 110, 2004, 3867 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador , Fecha , Valor ) VALUES (22, 60, 110, 2005, 4268 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (23, 60, 110, 2006, 4268 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (24, 60, 110, 2007, 4268 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (25, 60, 110, 2008, 4268 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (26, 60, 110, 2009, 4280 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (27, 60, 110, 2010, 1868 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (28, 60, 130, 2002, 7746 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (29, 60, 130, 2003, 7692 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (30, 60, 130, 2004, 7692 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (31, 60, 130, 2005, 2611 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (32, 60, 130, 2006, 2611 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (33, 60, 130, 2007, 2611 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (34, 60, 130, 2008, 2611 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (35, 60, 130, 2009, 1671 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (36, 60, 130, 2010, 1816 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (37, 58, 310, 2003, 22918 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (38, 58, 310, 2004, 201058 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (39, 58, 310, 2005, 228712 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (40, 58, 310, 2006, 227699 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (41, 58, 310, 2007, 258133 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (42, 58, 310, 2008, 202961 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (43, 58, 310, 2009, 253066 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (44, 58, 310, 2010, 279166 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador , Fecha , Valor ) VALUES (45, 58, 320, 2002, 1844020 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (46, 58, 320, 2003, 1837240 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (47, 58, 320, 2004, 1965170 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (48, 58, 320, 2005, 1974240 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (49, 58, 320, 2006, 1960000 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (50, 58, 320, 2007, 2091410 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (51, 58, 320, 2008, 2161720 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (52, 58, 320, 2009, 2096550 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (53, 58, 320, 2010, 2239335 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (54, 59, 500, 1998, 6220 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (55, 59, 500, 1999, 40078 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (56, 59, 500, 2000, 61777 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (57, 59, 500, 2001, 28653 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (58, 59, 500, 2002, 7812 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (59, 59, 500, 2003, 51186 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (60, 59, 500, 2004, 7257 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (61, 59, 500, 2005, 23399 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (62, 59, 500, 2006, 13493 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (63, 59, 500, 2007, 17736 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (64, 59, 500, 2008, 15489 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (65, 59, 500, 2009, 22038 );
+INSERT INTO MuestraAnual ( idMuestraAnual , idEstacionMuestreo , idIndicador, Fecha , Valor ) VALUES (66, 59, 500, 2010, 22314 );
 commit;
